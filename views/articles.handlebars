@@ -1,0 +1,18 @@
+<h1 class="center">Latest News</h1>
+<table class="container centered bordered">
+    <thead>
+      <tr>
+          <th>Article</th>
+          <th>Link</th>
+      </tr>
+    </thead>
+
+    <tbody>
+    {{#each articles}}
+      <tr>
+        <td>{{title}}</td>
+        <td>{{link}}</td>
+      </tr>
+    {{/each}}
+    </tbody>
+</table>
